@@ -1008,6 +1008,10 @@ h4 {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.team-grid.team-grid--single {
+  grid-template-columns: minmax(0, 620px);
+}
+
 .avatar {
   width: 48px;
   height: 48px;
