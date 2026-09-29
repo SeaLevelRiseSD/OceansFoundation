@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T02:23:47Z",
+  "title": "Design System: Sea Level Rise San Diego",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "hsl(0 0% 4%)",
+        "tonalRamp": ["hsl(0 0% 4%)", "hsl(0 0% 16%)", "hsl(0 0% 29%)", "hsl(0 0% 42%)", "hsl(0 0% 55%)", "hsl(0 0% 68%)", "hsl(0 0% 82%)", "hsl(0 0% 95%)"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "hsl(0 0% 34%)",
+        "tonalRamp": ["hsl(0 0% 15%)", "hsl(0 0% 26%)", "hsl(0 0% 34%)", "hsl(0 0% 45%)", "hsl(0 0% 57%)", "hsl(0 0% 69%)", "hsl(0 0% 82%)", "hsl(0 0% 95%)"]
+      },
+      "coastal-teal": {
+        "role": "primary",
+        "displayName": "Coastal Teal",
+        "canonical": "hsl(186 83% 26%)",
+        "tonalRamp": ["hsl(186 83% 15%)", "hsl(186 83% 26%)", "hsl(186 76% 38%)", "hsl(186 68% 50%)", "hsl(186 58% 62%)", "hsl(186 50% 74%)", "hsl(186 44% 86%)", "hsl(186 40% 95%)"]
+      },
+      "deep-harbor": {
+        "role": "primary",
+        "displayName": "Deep Harbor",
+        "canonical": "hsl(186 82% 15%)",
+        "tonalRamp": ["hsl(186 82% 10%)", "hsl(186 82% 15%)", "hsl(186 76% 28%)", "hsl(186 68% 41%)", "hsl(186 58% 54%)", "hsl(186 50% 68%)", "hsl(186 43% 82%)", "hsl(186 40% 95%)"]
+      },
+      "sea-mist": {
+        "role": "neutral",
+        "displayName": "Sea Mist",
+        "canonical": "hsl(185 40% 94%)",
+        "tonalRamp": ["hsl(185 40% 15%)", "hsl(185 40% 28%)", "hsl(185 40% 41%)", "hsl(185 40% 54%)", "hsl(185 40% 67%)", "hsl(185 40% 79%)", "hsl(185 40% 88%)", "hsl(185 40% 94%)"]
+      },
+      "civic-coral": {
+        "role": "secondary",
+        "displayName": "Civic Coral",
+        "canonical": "hsl(15 87% 66%)",
+        "tonalRamp": ["hsl(15 87% 15%)", "hsl(15 87% 27%)", "hsl(15 87% 40%)", "hsl(15 87% 53%)", "hsl(15 87% 66%)", "hsl(15 79% 76%)", "hsl(15 70% 86%)", "hsl(15 62% 95%)"]
+      },
+      "coral-on-light": {
+        "role": "secondary",
+        "displayName": "Coral on Light",
+        "canonical": "hsl(15 72% 42%)",
+        "tonalRamp": ["hsl(15 72% 15%)", "hsl(15 72% 28%)", "hsl(15 72% 42%)", "hsl(15 72% 54%)", "hsl(15 66% 65%)", "hsl(15 59% 76%)", "hsl(15 52% 86%)", "hsl(15 45% 95%)"]
+      },
+      "coral-on-dark": {
+        "role": "secondary",
+        "displayName": "Coral on Dark",
+        "canonical": "hsl(15 90% 82%)",
+        "tonalRamp": ["hsl(15 90% 15%)", "hsl(15 90% 28%)", "hsl(15 90% 41%)", "hsl(15 90% 54%)", "hsl(15 90% 67%)", "hsl(15 90% 76%)", "hsl(15 90% 82%)", "hsl(15 84% 95%)"]
+      },
+      "tide-line": {
+        "role": "neutral",
+        "displayName": "Tide Line",
+        "canonical": "hsl(185 43% 85%)",
+        "tonalRamp": ["hsl(185 43% 15%)", "hsl(185 43% 28%)", "hsl(185 43% 41%)", "hsl(185 43% 54%)", "hsl(185 43% 67%)", "hsl(185 43% 76%)", "hsl(185 43% 85%)", "hsl(185 43% 95%)"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "hsl(0 0% 100%)",
+        "tonalRamp": ["hsl(0 0% 15%)", "hsl(0 0% 28%)", "hsl(0 0% 41%)", "hsl(0 0% 54%)", "hsl(0 0% 67%)", "hsl(0 0% 80%)", "hsl(0 0% 92%)", "hsl(0 0% 100%)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home and page-defining hero headlines." },
+      "headline": { "displayName": "Headline", "purpose": "Major section and article headings." },
+      "title": { "displayName": "Title", "purpose": "Stories, neighborhoods, and prominent grouped content." },
+      "body": { "displayName": "Body", "purpose": "Explanatory prose, navigation, controls, and general interface text." },
+      "label": { "displayName": "Editorial Label", "purpose": "Uppercase eyebrows, compact labels, and section signals." }
+    },
+    "shadows": [
+      { "name": "ambient-lift", "value": "0 6px 18px hsl(186 60% 12% / 0.09)", "purpose": "Button hover and the open mobile navigation." },
+      { "name": "confirmation-lift", "value": "0 18px 45px hsl(186 60% 12% / 0.16)", "purpose": "Singular floating confirmation and completion surfaces." }
+    ],
+    "motion": [
+      { "name": "state-quick", "value": "150ms ease-out", "purpose": "Link color, arrow movement, and card border changes." },
+      { "name": "control-lift", "value": "160ms ease-out", "purpose": "Button lift, menu icon, and navigation state changes." },
+      { "name": "editorial-reveal", "value": "opacity 600ms ease-out, transform 700ms cubic-bezier(.16,1,.3,1)", "purpose": "One-time content reveal and subtle image scale; disabled for reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "navigation-collapse", "value": "900px" },
+      { "name": "compact-layout", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The default civic action for light surfaces and navigation.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Take Action</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; min-height:44px; border:0; border-radius:6px; padding:.72rem 1.45rem; background:var(--primary,hsl(186 83% 26%)); color:var(--white,#fff); font:700 1rem/1.2 var(--font-sans,Inter,sans-serif); cursor:pointer; transition:transform 160ms ease-out,background-color 160ms ease-out,box-shadow 160ms ease-out; } .ds-btn-primary:hover { background:hsl(186 83% 22%); transform:translateY(-1px); box-shadow:0 6px 18px hsl(186 60% 12% / .09); } .ds-btn-primary:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); } .ds-btn-primary:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Light Hero Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "The high-contrast primary action over documentary hero imagery.",
+      "html": "<button class=\"ds-btn-light\" type=\"button\">Learn the Science</button>",
+      "css": ".ds-btn-light { display:inline-flex; align-items:center; justify-content:center; min-width:180px; min-height:54px; border:2px solid var(--white,#fff); border-radius:6px; padding:.72rem 1.45rem; background:var(--white,#fff); color:var(--primary-deep,hsl(186 82% 15%)); font:700 .875rem/1.2 var(--font-sans,Inter,sans-serif); cursor:pointer; transition:transform 160ms ease-out,background-color 160ms ease-out,box-shadow 160ms ease-out; } .ds-btn-light:hover { background:hsl(0 0% 96%); transform:translateY(-1px); box-shadow:0 6px 18px hsl(186 60% 12% / .09); } .ds-btn-light:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); } .ds-btn-light:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Civic Coral Button",
+      "kind": "button",
+      "refersTo": "button-coral",
+      "description": "The action button reserved for teal newsletter and contact bands.",
+      "html": "<button class=\"ds-btn-coral\" type=\"button\">Sign Up</button>",
+      "css": ".ds-btn-coral { display:inline-flex; align-items:center; justify-content:center; min-height:44px; border:0; border-radius:6px; padding:.72rem 1.45rem; background:var(--accent,hsl(15 87% 66%)); color:var(--primary-deep,hsl(186 82% 15%)); font:700 1rem/1.2 var(--font-sans,Inter,sans-serif); cursor:pointer; transition:transform 160ms ease-out,background-color 160ms ease-out,box-shadow 160ms ease-out; } .ds-btn-coral:hover { background:hsl(15 87% 60%); transform:translateY(-1px); box-shadow:0 6px 18px hsl(186 60% 12% / .09); } .ds-btn-coral:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); } .ds-btn-coral:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "A restrained editorial link row with the civic action held apart as a teal button.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#\">Learn</a><a href=\"#\" aria-current=\"page\">Local Impacts</a><a href=\"#\">About</a><a class=\"ds-nav-cta\" href=\"#\">Take Action</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:2rem; color:var(--ink,hsl(0 0% 4%)); font:500 .875rem/1.2 var(--font-sans,Inter,sans-serif); } .ds-nav a { color:inherit; text-decoration:none; transition:color 150ms ease-out; } .ds-nav a:not(.ds-nav-cta):hover,.ds-nav a[aria-current=\"page\"]:not(.ds-nav-cta) { color:var(--primary,hsl(186 83% 26%)); } .ds-nav a:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); } .ds-nav-cta { display:inline-flex; align-items:center; min-height:44px; border-radius:6px; padding:.72rem 1.45rem; background:var(--primary,hsl(186 83% 26%)); color:var(--white,#fff) !important; font-weight:700; } .ds-nav-cta:hover { background:hsl(186 83% 22%); }"
+    },
+    {
+      "name": "Editorial Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "A flat, bordered content card with a small coral signal and serif title.",
+      "html": "<article class=\"ds-card\"><span class=\"ds-card-number\">01</span><h3>Stay Informed</h3><p>Follow local sea level rise data and share what you learn with your community.</p></article>",
+      "css": ".ds-card { max-width:22rem; border:1px solid var(--border,hsl(185 43% 85%)); border-radius:12px; padding:2rem; background:var(--white,#fff); color:var(--ink,hsl(0 0% 4%)); } .ds-card-number { color:var(--accent-on-light,hsl(15 72% 42%)); font:400 2.5rem/1 var(--font-heading,Georgia,serif); } .ds-card h3 { margin:1rem 0 .75rem; font:400 1.35rem/1.08 var(--font-heading,Georgia,serif); } .ds-card p { margin:0; color:var(--ink-soft,hsl(0 0% 34%)); font:400 .9rem/1.7 var(--font-sans,Inter,sans-serif); }"
+    },
+    {
+      "name": "Risk Tag",
+      "kind": "chip",
+      "description": "A compact content label; the high-risk state uses the contrast-safe coral role.",
+      "html": "<div class=\"ds-tag-row\"><span class=\"ds-risk-tag\">Erosion</span><span class=\"ds-risk-tag ds-risk-tag-high\">High risk</span></div>",
+      "css": ".ds-tag-row { display:flex; flex-wrap:wrap; gap:.5rem; } .ds-risk-tag { display:inline-flex; border-radius:6px; padding:.3rem .6rem; background:var(--primary-light,hsl(185 40% 94%)); color:var(--primary,hsl(186 83% 26%)); font:700 .72rem/1.35 var(--font-sans,Inter,sans-serif); } .ds-risk-tag-high { background:hsl(15 87% 66% / .16); color:var(--accent-on-light,hsl(15 72% 42%)); } .ds-risk-tag:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); }"
+    },
+    {
+      "name": "Labeled Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A direct, clearly labeled field used in the Netlify contact form.",
+      "html": "<label class=\"ds-field\"><span>Email *</span><input type=\"email\" placeholder=\"you@example.com\" required></label>",
+      "css": ".ds-field { display:grid; gap:.4rem; color:var(--ink,hsl(0 0% 4%)); font-family:var(--font-sans,Inter,sans-serif); } .ds-field span { font-size:.8rem; font-weight:700; } .ds-field input { width:100%; border:1px solid var(--border,hsl(185 43% 85%)); border-radius:7px; padding:.8rem .9rem; background:var(--white,#fff); color:var(--ink,hsl(0 0% 4%)); font:400 1rem/1.6 var(--font-sans,Inter,sans-serif); } .ds-field input::placeholder { color:var(--ink-soft,hsl(0 0% 34%)); } .ds-field input:hover { border-color:var(--primary,hsl(186 83% 26%)); } .ds-field input:focus-visible { outline:3px solid var(--white,#fff); outline-offset:2px; box-shadow:0 0 0 6px var(--primary-deep,hsl(186 82% 15%)); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Civic Coastline",
+    "overview": "This system brings the authority of a public-interest editorial publication to the warmth and immediacy of San Diego's coast. Expansive documentary imagery and confident serif headlines establish place and consequence; restrained interface typography, clean data treatments, and generous white space make the science approachable rather than institutional.\n\nThe visual hierarchy is urgent without becoming alarmist. Deep coastal teal provides trust and continuity, while coral appears selectively around statistics, steps, and action moments. The result should feel locally grounded, scientifically credible, and ready for civic participation across all five core routes.",
+    "keyCharacteristics": [
+      "Documentary coastal photography with legible teal overlays",
+      "Editorial serif headlines paired with highly readable sans-serif copy",
+      "Deep teal civic surfaces and sparing coral emphasis",
+      "Generous white space, thin borders, and calm content density",
+      "Responsive, accessible interactions with clear focus states"
+    ],
+    "rules": [
+      { "name": "The Coral Is a Signal Rule", "body": "Coral marks action, data, or a small editorial accent; it does not become a full-page background or compete with teal for structural dominance.", "section": "colors" },
+      { "name": "The Contrast Has a Role Rule", "body": "Use Coral on Light for small coral text on pale surfaces and Coral on Dark for coral text on teal; do not interchange the decorative base coral with these accessible text roles.", "section": "colors" },
+      { "name": "The Serif Carries Meaning Rule", "body": "Reserve DM Serif Display for headings, statistics, step numbers, and initials; controls and paragraph copy remain Inter.", "section": "typography" },
+      { "name": "The Editorial Measure Rule", "body": "Long explanations live in the narrow 848px reading container or a narrower text column; never stretch prose across the full 1216px grid.", "section": "typography" },
+      { "name": "The One Clear Measure Rule", "body": "Every surface chooses either the broad 1216px editorial grid or the 848px reading measure; avoid arbitrary intermediate widths.", "section": "layout" },
+      { "name": "The Collapse with Intent Rule", "body": "Responsive layouts reorder images only when required to restore image-then-copy reading flow; DOM meaning and focus order remain stable.", "section": "layout" },
+      { "name": "The Flat by Default Rule", "body": "Borders establish resting structure; shadows communicate active lift or a genuinely floating layer.", "section": "elevation" },
+      { "name": "The Radius Has Scale Rule", "body": "Larger content surfaces use 12px, controls use 6–8px, and pills appear only when the content or silhouette is inherently compact and rounded.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use documentary images as evidence of place, with crops that preserve recognizable coastal context.",
+      "Do keep headlines concise enough to benefit from the display serif's large, calm shapes.",
+      "Do use Teal for structure and Coral for selective action or data emphasis.",
+      "Do preserve the global visible focus treatment and 44px minimum actionable height.",
+      "Do honor reduced-motion preferences and keep reveal effects supplementary to comprehension.",
+      "Do preserve descriptive alt text, semantic headings, form labels, and source attribution."
+    ],
+    "donts": [
+      "Don't turn the palette into a generic beach theme with pale aquas, sandy gradients, or decorative coral everywhere.",
+      "Don't place small base-coral text on white or pale backgrounds; use the contrast-safe Coral on Light role.",
+      "Don't add shadows to every card or layer rounded containers inside rounded containers.",
+      "Don't use DM Serif Display for paragraphs, navigation, form controls, or dense interface copy.",
+      "Don't stretch long-form text to the full editorial grid or preserve desktop columns past their useful reading width.",
+      "Don't let animation delay access to information or remain active when reduced motion is requested."
+    ]
+  }
+}
